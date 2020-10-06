@@ -13,7 +13,11 @@
     <meta name="author" content="Creative Tim" />
     <title>DeveloPic</title>
     <!-- Favicon -->
-    <link rel="icon" href="../assets/img/brand/favicon.png" type="image/png" />
+    <link
+      rel="icon"
+      href="../../assets/img/brand/favicon.png"
+      type="image/png"
+    />
     <!-- Fonts -->
     <link
       rel="stylesheet"
@@ -22,19 +26,19 @@
     <!-- Icons -->
     <link
       rel="stylesheet"
-      href="../assets/vendor/nucleo/css/nucleo.css"
+      href="../../assets/vendor/nucleo/css/nucleo.css"
       type="text/css"
     />
     <link
       rel="stylesheet"
-      href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+      href="../../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
       type="text/css"
     />
     <!-- Page plugins -->
     <!-- Argon CSS -->
     <link
       rel="stylesheet"
-      href="../assets/css/argon.css?v=1.2.0"
+      href="../../assets/css/argon.css?v=1.2.0"
       type="text/css"
     />
   </head>
@@ -50,7 +54,7 @@
         <div class="sidenav-header align-items-center">
           <a class="navbar-brand" href="javascript:void(0)">
             <img
-              src="../assets/img/brand/green.png"
+              src="../../assets/img/brand/green.png"
               class="navbar-brand-img"
               alt="..."
             />
@@ -62,43 +66,43 @@
             <!-- Nav items -->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="dashboard.html">
+                <a class="nav-link" href="../dashboard.html">
                   <i class="ni ni-tv-2 text-primary"></i>
                   <span class="nav-link-text">Dashboard</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="icons.html">
+                <a class="nav-link" href="../user/index.html">
                   <i class="ni ni-circle-08 text-pink"></i>
                   <span class="nav-link-text">유저관리</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="map.html">
+                <a class="nav-link active" href="#">
                   <i class="ni ni-send text-dark"></i>
                   <span class="nav-link-text">작가신청관리</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="profile.html">
+                <a class="nav-link" href="../cs/index.html">
                   <i class="ni ni-single-02 text-yellow"></i>
                   <span class="nav-link-text">고객센터관리</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="../photos/index.html">
                   <i class="ni ni-bullet-list-67 text-default"></i>
                   <span class="nav-link-text">작품관리</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="register.html">
+                <a class="nav-link" href="../payment/index.html">
                   <i class="ni ni-money-coins text-info"></i>
                   <span class="nav-link-text">결제관리</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.html">
+                <a class="nav-link" href="../login.html">
                   <i class="ni ni-key-25 text-info"></i>
                   <span class="nav-link-text">Logout</span>
                 </a>
@@ -164,108 +168,21 @@
           <div class="header-body">
             <div class="row align-items-center py-4">
               <div class="col-lg-6 col-7">
-                <h6 class="h2 text-white d-inline-block mb-0">전체유저</h6>
+                <h6 class="h2 text-white d-inline-block mb-0">작가신청관리</h6>
                 <nav
                   aria-label="breadcrumb"
                   class="d-none d-md-inline-block ml-md-4"
                 >
                   <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                    <li class="breadcrumb-item"><a href="#">전체유저</a></li>
-                    <li class="breadcrumb-item"><a href="#">작가</a></li>
-                    <li class="breadcrumb-item"><a href="#">블랙리스트</a></li>
+                    <li class="breadcrumb-item"><a href="#">전체신청</a></li>
+                    <li class="breadcrumb-item">
+                      <a href="applied.html">승인목록</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="refused.html">거절목록</a>
+                    </li>
                   </ol>
                 </nav>
-              </div>
-            </div>
-            <!-- Card stats -->
-            <div class="row">
-              <div class="col-xl-3 col-md-6">
-                <div class="card card-stats">
-                  <!-- Card body -->
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col">
-                        <h5 class="card-title text-uppercase text-muted mb-0">
-                          총고객수
-                        </h5>
-                        <span class="h2 font-weight-bold mb-0">350,897</span>
-                      </div>
-                      <div class="col-auto">
-                        <div
-                          class="icon icon-shape bg-gradient-red text-white rounded-circle shadow"
-                        >
-                          <i class="ni ni-active-40"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-md-6">
-                <div class="card card-stats">
-                  <!-- Card body -->
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col">
-                        <h5 class="card-title text-uppercase text-muted mb-0">
-                          지난달 유입유저
-                        </h5>
-                        <span class="h2 font-weight-bold mb-0">2,356</span>
-                      </div>
-                      <div class="col-auto">
-                        <div
-                          class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow"
-                        >
-                          <i class="ni ni-chart-pie-35"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-md-6">
-                <div class="card card-stats">
-                  <!-- Card body -->
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col">
-                        <h5 class="card-title text-uppercase text-muted mb-0">
-                          총 작가수
-                        </h5>
-                        <span class="h2 font-weight-bold mb-0">300,000</span>
-                      </div>
-                      <div class="col-auto">
-                        <div
-                          class="icon icon-shape bg-gradient-green text-white rounded-circle shadow"
-                        >
-                          <i class="ni ni-money-coins"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-md-6">
-                <div class="card card-stats">
-                  <!-- Card body -->
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col">
-                        <h5 class="card-title text-uppercase text-muted mb-0">
-                          지난달 승인작가
-                        </h5>
-                        <span class="h2 font-weight-bold mb-0">100</span>
-                      </div>
-                      <div class="col-auto">
-                        <div
-                          class="icon icon-shape bg-gradient-info text-white rounded-circle shadow"
-                        >
-                          <i class="ni ni-chart-bar-32"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -277,13 +194,12 @@
           <div class="col">
             <div class="card bg-default shadow">
               <div class="card-header bg-transparent border-0">
-                <h3 class="text-white mb-0">전체유저</h3>
+                <h3 class="text-white mb-0">전체목록</h3>
               </div>
               <div class="table-responsive">
                 <table class="table align-items-center table-dark table-flush">
                   <thead class="thead-dark">
                     <tr>
-                      <th scope="col" class="sort" data-sort="name">번호</th>
                       <th scope="col" class="sort" data-sort="name">아이디</th>
                       <th scope="col" class="sort" data-sort="budget">이름</th>
                       <th scope="col" class="sort" data-sort="status">
@@ -291,21 +207,18 @@
                       </th>
                       <th scope="col">댓글수</th>
                       <th scope="col">신고횟수</th>
-                      <th scope="col" class="sort" data-sort="completion">
-                        거래금액
-                      </th>
+                      <th scope="col" class="sort" data-sort="completion"></th>
                       <th scope="col">더보기</th>
                     </tr>
                   </thead>
                   <tbody class="list">
                     <tr>
-                      <td class="budget">1</td>
                       <th scope="row">
                         <div class="media align-items-center">
                           <a href="#" class="avatar rounded-circle mr-3">
                             <img
                               alt="Image placeholder"
-                              src="../assets/img/theme/bootstrap.jpg"
+                              src="../../assets/img/theme/bootstrap.jpg"
                             />
                           </a>
                           <div class="media-body">
@@ -319,7 +232,20 @@
                       <td class="budget">13</td>
                       <td class="budget">104</td>
                       <td class="budget">0</td>
-                      <td class="budget">100.000.000</td>
+                      <td class="budget">
+                        <button class="btn btn-icon btn-primary" type="button">
+                          <span class="btn-inner--icon"
+                            ><i class="ni ni-palette"></i
+                          ></span>
+                          <span class="btn-inner--text">승인</span></button
+                        ><button class="btn btn-icon btn-danger" type="button">
+                          <span class="btn-inner--icon"
+                            ><i class="ni ni-scissors"></i
+                          ></span>
+                          <span class="btn-inner--text">거절</span>
+                        </button>
+                      </td>
+
                       <td class="text-right">
                         <div class="dropdown">
                           <a
@@ -353,15 +279,15 @@
     </div>
     <!-- Argon Scripts -->
     <!-- Core -->
-    <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/js-cookie/js.cookie.js"></script>
-    <script src="../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
-    <script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+    <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendor/js-cookie/js.cookie.js"></script>
+    <script src="../../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="../../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
     <!-- Optional JS -->
-    <script src="../assets/vendor/chart.js/dist/Chart.min.js"></script>
-    <script src="../assets/vendor/chart.js/dist/Chart.extension.js"></script>
+    <script src="../../assets/vendor/chart.js/dist/Chart.min.js"></script>
+    <script src="../../assets/vendor/chart.js/dist/Chart.extension.js"></script>
     <!-- Argon JS -->
-    <script src="../assets/js/argon.js?v=1.2.0"></script>
+    <script src="../../assets/js/argon.js?v=1.2.0"></script>
   </body>
 </html>
