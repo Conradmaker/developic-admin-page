@@ -200,6 +200,7 @@
                 <table class="table align-items-center table-dark table-flush">
                   <thead class="thead-dark">
                     <tr>
+                      <th scope="col" class="sort" data-sort="name">번호</th>
                       <th scope="col" class="sort" data-sort="name">아이디</th>
                       <th scope="col" class="sort" data-sort="budget">이름</th>
                       <th scope="col" class="sort" data-sort="status">
@@ -207,12 +208,15 @@
                       </th>
                       <th scope="col">댓글수</th>
                       <th scope="col">신고횟수</th>
-                      <th scope="col" class="sort" data-sort="completion"></th>
+                      <th scope="col" class="sort" data-sort="completion">
+                        거절사유
+                      </th>
                       <th scope="col">더보기</th>
                     </tr>
                   </thead>
                   <tbody class="list">
                     <tr>
+                      <td class="budget">1</td>
                       <th scope="row">
                         <div class="media align-items-center">
                           <a href="#" class="avatar rounded-circle mr-3">
@@ -232,19 +236,7 @@
                       <td class="budget">13</td>
                       <td class="budget">104</td>
                       <td class="budget">0</td>
-                      <td class="budget">
-                        <button class="btn btn-icon btn-primary" type="button">
-                          <span class="btn-inner--icon"
-                            ><i class="ni ni-palette"></i
-                          ></span>
-                          <span class="btn-inner--text">승인</span></button
-                        ><button class="btn btn-icon btn-danger" type="button">
-                          <span class="btn-inner--icon"
-                            ><i class="ni ni-scissors"></i
-                          ></span>
-                          <span class="btn-inner--text">거절</span>
-                        </button>
-                      </td>
+                      <td class="budget">게시글 10개 미달</td>
 
                       <td class="text-right">
                         <div class="dropdown">

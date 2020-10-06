@@ -293,7 +293,7 @@
                 <table class="table align-items-center table-dark table-flush">
                   <thead class="thead-dark">
                     <tr>
-                      <th scope="col" class="sort" data-sort="name">번호</th>
+                      <th scope="col" class="sort" data-sort="name">신고번호</th>
                       <th scope="col" class="sort" data-sort="name">제목</th>
                       <th scope="col" class="sort" data-sort="budget">작가</th>
                       <th scope="col" class="sort" data-sort="status">
@@ -301,7 +301,7 @@
                       </th>
                       <th scope="col">댓글수</th>
                       <th scope="col">신고횟수</th>
-                      <th scope="col">판매여부(금액)</th>
+                      <th scope="col">판매여부(금액)</th><th scope="col" class="sort" data-sort="budget">상태</th>
                       <th scope="col" class="sort" data-sort="completion">
                         보기
                       </th>
@@ -310,49 +310,95 @@
                   </thead>
                   <tbody class="list">
                     <tr>
-                      <td class="budget">1</td>
-                      <th scope="row">
-                        <div class="media align-items-center">
-                          <div class="media-body">
-                            <span class="name mb-0 text-sm"
-                              >동해물과 백두산</span
-                            >
+                        <td class="budget">1</td>
+                        <th scope="row">
+                          <div class="media align-items-center">
+                            <div class="media-body">
+                              <span class="name mb-0 text-sm"
+                                >남산위에 소나무</span
+                              >
+                            </div>
                           </div>
-                        </div>
-                      </th>
-                      <td class="budget">유원근</td>
-                      <td class="budget">2020-10-10</td>
-                      <td class="budget">10</td>
-                      <td class="budget">0</td>
-                      <td class="budget">100.000.000</td>
-                      <td class="budget">
-                        <button type="button" class="btn btn-primary btn-sm">
-                          작품보기
-                        </button>
-                      </td>
-                      <td class="text-right">
-                        <div class="dropdown">
-                          <a
-                            class="btn btn-sm btn-icon-only text-light"
-                            href="#"
-                            role="button"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                          >
-                            <i class="fas fa-ellipsis-v"></i>
-                          </a>
-                          <div
-                            class="dropdown-menu dropdown-menu-right dropdown-menu-arrow"
-                          >
-                            <a class="dropdown-item" href="#"
-                              >블라인드 추가(복구)</a
+                        </th>
+                        <td class="budget">피가소</td>
+                        <td class="budget">2020-10-10</td>
+                        <td class="budget">10</td>
+                        <td class="budget">12</td>
+                        <td class="budget">판매불가</td>
+                        <td class="budget">블라인드</td>
+                        <td class="budget">
+                          <button type="button" class="btn btn-primary btn-sm">
+                            작품보기
+                          </button>
+                        </td>
+                        <td class="text-right">
+                          <div class="dropdown">
+                            <a
+                              class="btn btn-sm btn-icon-only text-light"
+                              href="#"
+                              role="button"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
                             >
-                            <a class="dropdown-item" href="#">삭제</a>
+                              <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                            <div
+                              class="dropdown-menu dropdown-menu-right dropdown-menu-arrow"
+                            >
+                              <a class="dropdown-item" href="#"
+                                >블라인드 추가(복구)</a
+                              >
+                              <a class="dropdown-item" href="#">삭제</a>
+                            </div>
                           </div>
-                        </div>
-                      </td>
-                    </tr>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="budget">2</td>
+                        <th scope="row">
+                          <div class="media align-items-center">
+                            <div class="media-body">
+                              <span class="name mb-0 text-sm"
+                                >가을하늘</span
+                              >
+                            </div>
+                          </div>
+                        </th>
+                        <td class="budget">한석붕</td>
+                        <td class="budget">2020-01-10</td>
+                        <td class="budget">10</td>
+                        <td class="budget">3</td>
+                        <td class="budget">판매불가</td>
+                        <td class="budget">정상</td>
+                        <td class="budget">
+                          <button type="button" class="btn btn-primary btn-sm">
+                            작품보기
+                          </button>
+                        </td>
+                        <td class="text-right">
+                          <div class="dropdown">
+                            <a
+                              class="btn btn-sm btn-icon-only text-light"
+                              href="#"
+                              role="button"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                            >
+                              <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                            <div
+                              class="dropdown-menu dropdown-menu-right dropdown-menu-arrow"
+                            >
+                              <a class="dropdown-item" href="#"
+                                >블라인드 추가(복구)</a
+                              >
+                              <a class="dropdown-item" href="#">삭제</a>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
                   </tbody>
                 </table>
               </div>

@@ -293,18 +293,14 @@
                 <table class="table align-items-center table-dark table-flush">
                   <thead class="thead-dark">
                     <tr>
-                      <th scope="col" class="sort" data-sort="name">번호</th>
-                      <th scope="col" class="sort" data-sort="name">제목</th>
-                      <th scope="col" class="sort" data-sort="budget">작가</th>
+                      <th scope="col" class="sort" data-sort="name">댓글번호</th>
+                      <th scope="col" class="sort" data-sort="name">해당작품(click)</th>
+                      <th scope="col" class="sort" data-sort="name">작성자(click)</th>
                       <th scope="col" class="sort" data-sort="status">
                         등록일
                       </th>
-                      <th scope="col">댓글수</th>
                       <th scope="col">신고횟수</th>
-                      <th scope="col">판매여부(금액)</th>
-                      <th scope="col" class="sort" data-sort="completion">
-                        보기
-                      </th>
+                      <th scope="col">내용</th>
                       <th scope="col">더보기</th>
                     </tr>
                   </thead>
@@ -312,22 +308,52 @@
                     <tr>
                       <td class="budget">1</td>
                       <th scope="row">
-                        <div class="media align-items-center">
-                          <div class="media-body">
-                            <span class="name mb-0 text-sm"
-                              >동해물과 백두산</span
+                        <div class="dropdown">
+                          <a
+                            class="btn btn-sm btn-icon-only text-light"
+                            href="#"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                          <span class="name mb-0 text-sm">13</span>
+                          </a>
+                          <div
+                            class="dropdown-menu dropdown-menu-right dropdown-menu-arrow"
+                          >
+                            <a class="dropdown-item" href="#"
+                              >제목: 동해물과 백두산이</a
                             >
+                            <a class="dropdown-item" href="#">작가: 고흫</a>
                           </div>
                         </div>
                       </th>
-                      <td class="budget">유원근</td>
+                      <td class="budget"> <div class="dropdown">
+                        <a
+                          class="btn btn-sm btn-icon-only text-light"
+                          href="#"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                        <span class="name mb-0 text-sm">15</span>
+                        </a>
+                        <div
+                          class="dropdown-menu dropdown-menu-right dropdown-menu-arrow"
+                        >
+                          <a class="dropdown-item" href="#"
+                            >이메일: yhg0337@naver.com</a
+                          >
+                          <a class="dropdown-item" href="#">이름: 몰라요</a>
+                        </div>
+                      </div></td>
                       <td class="budget">2020-10-10</td>
                       <td class="budget">10</td>
-                      <td class="budget">0</td>
-                      <td class="budget">100.000.000</td>
                       <td class="budget">
                         <button type="button" class="btn btn-primary btn-sm">
-                          작품보기
+                          내용
                         </button>
                       </td>
                       <td class="text-right">
@@ -345,9 +371,6 @@
                           <div
                             class="dropdown-menu dropdown-menu-right dropdown-menu-arrow"
                           >
-                            <a class="dropdown-item" href="#"
-                              >블라인드 추가(복구)</a
-                            >
                             <a class="dropdown-item" href="#">삭제</a>
                           </div>
                         </div>
